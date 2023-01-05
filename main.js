@@ -1,6 +1,6 @@
 
-var teclado = document.querySelectorAll('.teclado');
+const listaDeTeclas = document.querySelectorAll('.tecla');
 
-pom.addEventListener("click", function(){
+listaDeTeclas[0].addEventListener("click", function(){
     document.querySelector('#som_tecla_pom').play();
 })
