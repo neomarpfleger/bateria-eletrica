@@ -1,6 +1,6 @@
 
-var pom = document.querySelector('.tecla_pom')
+var teclado = document.querySelectorAll('.teclado');
 
 pom.addEventListener("click", function(){
-    document.querySelector('#som_tecla_pom').play()
+    document.querySelector('#som_tecla_pom').play();
 })
