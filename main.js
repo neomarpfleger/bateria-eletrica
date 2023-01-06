@@ -1,14 +1,14 @@
-
-const listaDeTeclas = document.querySelectorAll('.tecla');
-
-listaDeTeclas[0].addEventListener("click", function(){
-    document.querySelector('#som_tecla_pom').play();
-})
+function tocaSom(){
+    document.querySelector().play();
+}
 
 let contador = 0
 
+const listaDeTeclas = document.querySelectorAll('.tecla');
+
 while( contador < listaDeTeclas.length){
 
+    listaDeTeclas[contador].onclick = tocaSom
     contador = contador + 1
 
     console.log(contador)
