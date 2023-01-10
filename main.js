@@ -16,7 +16,16 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++){
         tocarSom(idAudio);
     }
 
-    tecla.onkeydown = function (){
-       tecla.classList.add('ativa');
+    tecla.onkeydown = function (evento){
+
+        //console.log(evento.code) Este comando serve para identificar a tecla que foi clicada com a ajuda do DEVTOOLS
+
+        if(evento.code ==='Space'|| evento.code ==='Enter'){
+            tecla.classList.add('ativa');
+        }
+    }
+    tecla.onkeyup = function(){
+        tecla.classList.remove ('ativa')
+    
     }
 }
