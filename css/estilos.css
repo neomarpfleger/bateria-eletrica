@@ -11,7 +11,7 @@ body {
   background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction:column-reverse;
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
 }
@@ -23,9 +23,10 @@ body {
 }
 
 h1 {
+  position: absolute;
   color: var(--branca);
-  margin-bottom: 20px;
   font-size: 2rem;
+  top: 1.1em;
 }
 
 .teclado {
@@ -34,7 +35,7 @@ h1 {
   box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
-  gap: 10px;
+  gap: 15px;
   grid-template-columns: repeat(3, 1fr);
   padding: 10px;
 }
