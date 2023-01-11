@@ -8,7 +8,7 @@
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+  background: linear-gradient(35deg, #072792 0%,#f1ee32 100%);
   display: flex;
   justify-content: center;
   flex-direction:column-reverse;
@@ -24,8 +24,9 @@ body {
 
 h1 {
   position: absolute;
-  color: var(--branca);
-  font-size: 2rem;
+  color:#072792;
+  font-size: 2.5rem;
+  font-style:italic;
   top: 1.1em;
 }
 
